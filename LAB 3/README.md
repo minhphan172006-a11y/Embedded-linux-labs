@@ -463,12 +463,3 @@ The main takeaway is that debugging and performance analysis require reproducibl
 - [Linux perf Documentation](https://perf.wiki.kernel.org/)
 - [rt-tests Project](https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/)
 
----
-
-## Author
-
-**Name:** [Your Full Name]  
-**Student ID:** [Your Student ID]  
-**University:** FPT University  
-**Course:** Embedded Linux Systems  
-**Lab:** LAB-03 — Kernel Debugging and Performance Analysis
