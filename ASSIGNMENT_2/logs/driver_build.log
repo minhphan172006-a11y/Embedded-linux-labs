@@ -1,0 +1,11 @@
+make -C /home/pam/embedded_lab1/kernel/linux-6.6.21 M=/home/pam/embedded_linux_assignment_2/driver ARCH=arm \
+CROSS_COMPILE=arm-linux-gnueabihf- modules
+make[1]: Entering directory '/home/pam/embedded_lab1/kernel/linux-6.6.21'
+  CC [M]  /home/pam/embedded_linux_assignment_2/driver/sms_sensor_driver.o
+  MODPOST /home/pam/embedded_linux_assignment_2/driver/Module.symvers
+ERROR: modpost: "__aeabi_uldivmod" [/home/pam/embedded_linux_assignment_2/driver/sms_sensor_driver.ko] undefined!
+make[3]: *** [scripts/Makefile.modpost:145: /home/pam/embedded_linux_assignment_2/driver/Module.symvers] Error 1
+make[2]: *** [/home/pam/embedded_lab1/kernel/linux-6.6.21/Makefile:1865: modpost] Error 2
+make[1]: *** [Makefile:234: __sub-make] Error 2
+make[1]: Leaving directory '/home/pam/embedded_lab1/kernel/linux-6.6.21'
+make: *** [Makefile:8: all] Error 2
